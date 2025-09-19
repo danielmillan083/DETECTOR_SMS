@@ -1,0 +1,38 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+jupyter = "*"
+notebook = "*"
+scikit-learn = "*"
+nltk = "*"
+joblib = "*"
+matplotlib = "*"
+seaborn = "*"
+unicode = "*"
+unidecode = "*"
+googletrans = "*"
+deep-translator = "*"
+tqdm = "*"
+fastapi = "*"
+uvicorn = "*"
+sqlalchemy = "*"
+python-dotenv = "*"
+pydantic-settings = "*"
+psycopg2 = "*"
+phonenumbers = "*"
+streamlit = "*"
+torch = "*"
+requests = "*"
+dataset = "*"
+datasets = "*"
+transformers = {extras = ["torch"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"

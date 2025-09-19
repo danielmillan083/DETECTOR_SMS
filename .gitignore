@@ -1,0 +1,67 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code
+.vscode/
+
+# Python virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Environment variables
+.env
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Cache
+.cache/
+*.pyc
+__pypackages__/
+
+# Model artifacts
+*.pkl
+*.h5
+*.tflite
+*.joblib
+ai_model/bert_sms_detector_*/pytorch_model.bin
+ai_model/bert_sms_detector_*/tokenizer_config.json
+ai_model/bert_sms_detector_*/vocab.txt
+ai_model/bert_sms_detector_*/config.json
+
+# HuggingFace transformers cache
+~/.cache/huggingface/
+
+# Data files
+data/*.csv
+*.sqlite
+*.db
+
+# Streamlit & local web artifacts
+.streamlit/
+
+# Flutter
+build/
+*.dart_tool/
+.flutter-plugins
+.packages
+pubspec.lock
+
+# Mac OS
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
